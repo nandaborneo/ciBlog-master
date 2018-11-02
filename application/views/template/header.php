@@ -3,6 +3,7 @@
     <head>
         <title>CiBlog</title>
         <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css"/>
+        <link rel="stylesheet" href="<?= base_url();?>assets/css/style.css"/>
     </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -12,6 +13,9 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url();?>">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= base_url();?>posts">Blog  </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url();?>about">About</a>
